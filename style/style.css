@@ -6,6 +6,8 @@
 }
 body{
     font-family: 'Mulish', sans-serif;
+    width: 1170px;
+    margin: 15px auto;
 }
 h2{
     font-weight: 800;
@@ -26,27 +28,8 @@ p{
     border: none;
 }
 /* shere item end */
-/* recposive sectiom media start */
-@media screen and (max-width : 600px) {
-    .navber{
-        flex-direction: column;
-    }
-    .head{
-        flex-direction: column;
-    }
-    .banner-section{
-        flex-direction: column;
-    }
-    .himachal{
-        flex-direction: column;
-    }
-}
-/* resposive section media end */
+
 /* navber section stert */
-.header-section{
-    max-width: 1170px;
-    margin: 0 auto;
-}
 .navber{
     display: flex;
     justify-content: center;
@@ -90,50 +73,25 @@ p{
 }
 /* navber section end */
 /* banner section start */
-.banner{
-    border: 2px solid tomato;
-    width: auto;
+.banner-section{
+    width: 1170px;
+    height: 500px;
     background-image: url('../img/Group\ 13\ \(1\)\ \(1\).png');
     border-radius: 16px;
-    margin: 10px auto;
 }
 .banner-section{
-    width: auto;
     height: 500px;
     border-radius: 16px;
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    display: grid;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
 }
 .head{
-   display: flex;
-   justify-content: center;
-   text-align: center;
-}
-.head .where{
-    width: 174px;
-    height: 52px;
-    color: rgba(19, 19, 24, 0.50);
+    display: grid;
+    gap: 20px;
     text-align: center;
-    font-size: 16px;
-    font-weight: 400; 
-    border-radius: 8px;  
-}
-.head .when{
-    width: 174px;
-    height: 52px;
-    color: rgba(19, 19, 24, 0.50);
-    text-align: center;
-    font-size: 16px;
-    font-weight: 400;
-    border-radius: 8px;  
-}
-.head .select{
-    width: 174px;
-    height: 52px;
-    color: rgba(19, 19, 24, 0.50);
-    text-align: center;
-    font-size: 16px;
-    font-weight: 400; 
-    border-radius: 8px; 
 }
 /* bannersection completed */
 /* himacal,climate start */
@@ -170,3 +128,284 @@ p{
     border-radius: 16px;
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
+/* himacal,climate end */
+.img-section .img-portfoilo{
+    margin: 15px auto;
+}
+.img-section .img-all-z{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.img-section .img-all-x{
+    display: flex;
+    gap: 22px;
+    margin-bottom: 20px;
+}
+.img-section .img-all-y{
+     display: flex;
+     gap: 25px;
+     margin-bottom: 20px;
+}
+.box-a{
+    background-image: url('../img/Rectangle\ 5.png');
+    background-repeat: no-repeat;
+    width: 573px;
+    height: 300px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+.box-b{
+    background-image: url('../img/Rectangle\ 8.png');
+    background-repeat: no-repeat;
+    width: 573px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}.box-c{
+    background-image: url('../img/Rectangle\ 6.png');
+    background-repeat: no-repeat;
+    width: 374px;
+    height: 286px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+.box-d{
+    background-image: url('../img/Rectangle\ 7.png');
+    background-repeat: no-repeat;
+    width: 474px;
+    height: 286px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+.box-e{
+    background-image: url('../img/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    width: 274px;
+    height: 286px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}.box-f{
+    background-image: url('../img/Rectangle\ 11.png');
+    background-repeat: no-repeat;
+    width: 473px;
+    height: 300px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+.box-g{
+    background-image: url('../img/Rectangle\ 10.png');
+    background-repeat: no-repeat;
+    width: 673px;
+    height: 300px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.about{
+    max-width: 1170px;
+    margin: 10px auto;
+}
+.container{
+    display: flex;
+    gap:20px;
+    margin: 15px auto;
+}
+.hotel{
+    width: 570px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    display: grid;  
+}
+.service{
+    width: 570px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05); 
+    display: grid;  
+}
+.info-c{
+    max-width: 573px;
+    margin: 10px auto;
+    /* border: 3px solid yellow; */
+}
+.info-c .price{
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);  
+    display: grid;
+}
+/* newletter section start */
+.letter{
+    width: 480px;
+    border: 1px solid #FF5400;
+    border-radius: 16px;
+    display: grid;
+    gap: 15px;
+    margin: 20px;
+    padding: 40px;
+}
+.text-letter{
+    display: grid;
+    gap: 20px;
+}
+.text-letter h2{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+}
+.text-letter p{
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+}
+.from{
+    display: grid;
+    grid-template-rows: auto;
+    gap: 20px;
+}
+.name{
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    color: rgba(19, 19, 24, 0.30);
+    font-size: 16px;
+    font-weight: 400;
+}
+.enter{
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    color: rgba(19, 19, 24, 0.30);
+    font-size: 16px;
+    font-weight: 400;
+}
+.sub{
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+    border: none;
+}
+.newsletter{
+    width: 1170px;
+    height: 422px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img-letter img{
+    width: 650px;
+    height: 390px;
+    border-radius: 16px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+/* newsletter section end */
+/* recposive sectiom media start */
+@media screen and (max-width : 600px) {
+    .navber{
+        flex-direction: column;
+    }
+    .navber-section{
+        flex-direction: column;
+    }
+    .banner-section{
+        flex-direction: column;
+    }
+    .banner-section{
+        flex-direction: column;
+    }
+    .head{
+        flex-direction: column;
+    }
+    .himachal{
+        flex-direction: column;
+    }
+    .climate{
+        flex-direction: column;
+    }
+    .img-section .img-all-z{
+        flex-direction: column;
+    }
+    .img-section .img-all-x{
+        flex-direction: column;
+    }
+    .img-section .img-all-y{
+        flex-direction: column;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .hotel{
+        flex-direction: column;
+    }
+    .service{
+        flex-direction: column;
+    }
+    .info-c .price{
+        flex-direction: column;
+    }
+    .letter{
+        flex-direction: column;
+    }
+    .text-letter{
+        flex-direction: column;
+    }
+    .newsletter{
+        flex-direction: column;
+    }
+}
+/* resposive section media end */
